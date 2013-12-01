@@ -30,7 +30,7 @@ Requires: libxcb.so.1
 Requires: libXau.so.6
 
 %description
-Sublime Text 2 for GNU/Linux
+Sublime Text 3 for GNU/Linux
 
 %prep
 %setup -q -c -n %{name}
