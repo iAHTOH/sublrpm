@@ -39,7 +39,7 @@ Sublime Text 3 for GNU/Linux
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/applications/
 mkdir -p %{buildroot}/opt/%{name}/
-wget https://github.com/xvitaly/sublrpm/raw/master/%{name}.desktop -O %{buildroot}/usr/share/applications/%{name}.desktop
+wget https://raw.github.com/iAHTOH/sublrpm/master/%{name}.desktop -O %{buildroot}/usr/share/applications/%{name}.desktop
 mv "%_builddir/%{name}/sublime_text_3" %_builddir/%{name}/%{name}
 cp -fpr %_builddir/%{name}/%{name}/* %{buildroot}/opt/%{name}/
 chmod +x %{buildroot}/opt/%{name}/sublime_text
