@@ -40,7 +40,7 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/applications/
 mkdir -p %{buildroot}/opt/%{name}/
 wget https://github.com/xvitaly/sublrpm/raw/master/%{name}.desktop -O %{buildroot}/usr/share/applications/%{name}.desktop
-mv "%_builddir/%{name}/Sublime Text 2" %_builddir/%{name}/%{name}
+mv "%_builddir/%{name}/Sublime Text 3" %_builddir/%{name}/%{name}
 cp -fpr %_builddir/%{name}/%{name}/* %{buildroot}/opt/%{name}/
 chmod +x %{buildroot}/opt/%{name}/sublime_text
 
