@@ -7,8 +7,8 @@ Source: sublime_text_%{version}_x64.tar.bz2
 %else
 Source: sublime_text_%{version}_x32.tar.bz2
 %endif
-Summary: Sublime Text 2
-URL: http://www.sublimetext.com/2
+Summary: Sublime Text 3
+URL: http://www.sublimetext.com/3
 License: EULA
 BuildRoot: %{_tmppath}/%{name}-root
 Vendor: Sublime Text Authors
@@ -25,7 +25,7 @@ Requires: libm.so.6
 Requires: libgcc_s.so.1
 Requires: libc.so.6
 Requires: libgthread-2.0.so.0
-Requires: libffi.so.5
+#Requires: libffi.so.5
 Requires: libxcb.so.1
 Requires: libXau.so.6
 
