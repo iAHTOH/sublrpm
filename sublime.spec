@@ -1,11 +1,11 @@
 Name: sublimetext
-Version: 2.0.1
+Version: 3_build_3047
 Release: 1
 Group: Applications/Editors
 %ifarch x86_64
-Source: Sublime Text %{version} x64.tar.bz2
+Source: sublime_text_%{version}_x64.tar.bz2
 %else
-Source: Sublime Text %{version}.tar.bz2
+Source: sublime_text_%{version}_x32.tar.bz2
 %endif
 Summary: Sublime Text 2
 URL: http://www.sublimetext.com/2
